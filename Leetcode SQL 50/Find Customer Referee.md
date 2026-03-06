@@ -1,5 +1,5 @@
 ### 584. Find Customer Referee 
-** Link ** : [Problem Link]{https://leetcode.com/problems/find-customer-referee/description/?envType=study-plan-v2&envId=top-sql-50}
+**Link** : [Problem Link](https://leetcode.com/problems/find-customer-referee/description/?envType=study-plan-v2&envId=top-sql-50)
 
 ```sql
 SELECT name

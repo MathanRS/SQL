@@ -1,4 +1,4 @@
-# 1174. Immediate Food Delivery II
+# 1174. Immediate Food Delivery II 
 
 **Link**: [Problem Link](https://leetcode.com/problems/immediate-food-delivery-ii/description/)
 
@@ -19,4 +19,5 @@ FROM (
         RANK() OVER (PARTITION BY customer_id ORDER BY order_date) AS ranky
     FROM Delivery
 ) t
+
 WHERE ranky = 1;

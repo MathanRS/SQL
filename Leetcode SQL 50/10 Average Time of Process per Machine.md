@@ -1,4 +1,4 @@
-### 1661. Average Time of Process per Machine
+### 1661. Average Time of Process per Machine 
 **Link** : [Problem Link](https://leetcode.com/problems/average-time-of-process-per-machine/)
 
 
@@ -11,4 +11,5 @@ JOIN Activity a2
   AND a1.process_id = a2.process_id
 WHERE a1.activity_type = 'start'
   AND a2.activity_type = 'end'
+
 GROUP BY a1.machine_id;

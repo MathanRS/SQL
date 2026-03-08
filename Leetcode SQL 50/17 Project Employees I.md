@@ -1,0 +1,12 @@
+# 1075. Project Employees I
+
+**Link**: [Problem Link](https://leetcode.com/problems/project-employees-i/description/)
+
+```sql
+SELECT 
+    P.project_id,
+    ROUND(AVG(experience_years), 2) AS average_years
+FROM Project P
+JOIN Employee E
+    ON P.employee_id = E.employee_id
+GROUP BY P.project_id;

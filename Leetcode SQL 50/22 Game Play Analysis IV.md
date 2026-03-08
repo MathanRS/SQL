@@ -22,4 +22,5 @@ SELECT ROUND(
         SELECT COUNT(DISTINCT player_id) 
         FROM Activity
     ),
-2) AS fraction;
+
+2) AS fraction; 

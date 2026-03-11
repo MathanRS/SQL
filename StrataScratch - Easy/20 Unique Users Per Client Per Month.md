@@ -12,7 +12,7 @@ Write a query that returns the number of unique users per client for each month.
 ## Approach
 ```sql
 SELECT client_id,
-       DAY(time_id) AS 'month',
+       MONTH(time_id) AS 'month',
        COUNT(DISTINCT(user_id)) AS users_num
 FROM fact_events
 GROUP BY client_id, MONTH(time_id)

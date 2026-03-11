@@ -5,7 +5,7 @@ Calculate the difference between the highest salaries in the marketing and engin
 
 **Tables:** `db_employee`, `db_dept`
 
-**[QSTN Link]:** (https://platform.stratascratch.com/coding/10308-salaries-differences?code_type=3)
+**QSTN Link:** [Stratscratch Problem](https://platform.stratascratch.com/coding/10308-salaries-differences?code_type=3)
 
 ---
 

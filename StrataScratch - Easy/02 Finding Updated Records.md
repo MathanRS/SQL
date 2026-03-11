@@ -9,7 +9,7 @@ We have a table with employees and their salaries; however, some of the records 
 
 ---
 
-## Approach
+## Approach 1
 ```sql
 SELECT id,
        first_name,
@@ -24,3 +24,8 @@ FROM (
 WHERE rn = 1
 ORDER BY id ASC;
 ```
+## Approach 2
+```sql
+SELECT id, first_name, last_name, department_id, MAX(salary)
+FROM ms_employee_salary
+GROUP BY id;
